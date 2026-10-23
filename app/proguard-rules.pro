@@ -1,0 +1,2 @@
+-keep class com.classmate.timetable.** { *; }
+-dontwarn com.google.mlkit.**

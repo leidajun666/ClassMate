@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_primary">#B6C4FF</color>
+    <color name="md_on_primary">#082E6B</color>
+    <color name="md_primary_container">#254484</color>
+    <color name="md_on_primary_container">#DBE1FF</color>
+    <color name="md_secondary">#BFC6DC</color>
+    <color name="md_on_secondary">#293041</color>
+    <color name="md_secondary_container">#3F4759</color>
+    <color name="md_on_secondary_container">#DBE2F9</color>
+    <color name="md_tertiary">#DEBCDF</color>
+    <color name="md_on_tertiary">#402843</color>
+    <color name="md_tertiary_container">#593E5B</color>
+    <color name="md_on_tertiary_container">#FBD7FB</color>
+    <color name="md_error">#F2B8B5</color>
+    <color name="md_on_error">#601410</color>
+    <color name="md_error_container">#8C1D18</color>
+    <color name="md_on_error_container">#F9DEDC</color>
+    <color name="md_background">#121318</color>
+    <color name="md_on_background">#E3E1E9</color>
+    <color name="md_surface">#121318</color>
+    <color name="md_on_surface">#E3E1E9</color>
+    <color name="md_surface_variant">#44464F</color>
+    <color name="md_on_surface_variant">#C5C6D0</color>
+    <color name="md_outline">#8F9099</color>
+    <color name="md_outline_variant">#44464F</color>
+    <color name="icon_primary">#E3E1E9</color>
+    <color name="icon_secondary">#C5C6D0</color>
+    <color name="ic_launcher_background">#1B2A52</color>
+</resources>

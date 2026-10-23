@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">课表</string>
+    <string name="app_full_name">ClassMate 课表</string>
+    <string name="title_main">我的课表</string>
+    <string name="title_edit_new">添加课程</string>
+    <string name="title_edit_existing">编辑课程</string>
+    <string name="title_ai_import">AI 识图导入</string>
+    <string name="title_settings">设置</string>
+
+    <string name="action_save">保存</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_delete">删除</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_close">关闭</string>
+    <string name="action_import">导入</string>
+    <string name="action_ok">确定</string>
+
+    <string name="menu_ai">AI 识图导入</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_export">导出课表图片</string>
+    <string name="menu_backup">备份与恢复</string>
+    <string name="menu_about">关于</string>
+
+    <string name="fab_add">添加课程</string>
+    <string name="week_prev">上一周</string>
+    <string name="week_next">下一周</string>
+    <string name="today">今天</string>
+    <string name="week_back_to_current">回到本周</string>
+
+    <string name="hint_course_name">课程名称</string>
+    <string name="hint_teacher">任课教师</string>
+    <string name="hint_location">上课地点</string>
+    <string name="hint_note">备注</string>
+    <string name="label_day">上课星期</string>
+    <string name="label_period">节次</string>
+    <string name="label_week">周次</string>
+    <string name="label_color">课程颜色</string>
+    <string name="label_period_start">开始节次</string>
+    <string name="label_period_end">结束节次</string>
+    <string name="label_week_start">起始周</string>
+    <string name="label_week_end">结束周</string>
+    <string name="week_type_all">每周</string>
+    <string name="week_type_odd">单周</string>
+    <string name="week_type_even">双周</string>
+    <string name="error_name_required">请填写课程名称</string>
+    <string name="error_period_range">结束节次需不早于开始节次</string>
+    <string name="error_week_range">结束周需不早于起始周</string>
+    <string name="saved">已保存</string>
+    <string name="deleted">已删除</string>
+
+    <string name="ai_step1_label">第 1 步</string>
+    <string name="ai_step1_title">让 AI 看懂课表</string>
+    <string name="ai_step1_desc">把课表截图和下面的提示词一起发给任意能看图的 AI（豆包、元宝、通义、ChatGPT、Claude 等），它会按固定格式返回一段 JSON。</string>
+    <string name="ai_copy_prompt">复制提示词</string>
+    <string name="ai_show_prompt">查看提示词</string>
+    <string name="ai_hide_prompt">收起提示词</string>
+    <string name="ai_step2_label">第 2 步</string>
+    <string name="ai_step2_title">粘贴 AI 返回的 JSON</string>
+    <string name="ai_step2_desc">把 AI 的回复整段粘进来就行，多几句解释也能自动找出 JSON；也可以选择 AI 存下来的 .json / .txt 文件。</string>
+    <string name="ai_json_hint">AI 返回的内容</string>
+    <string name="ai_json_placeholder">[{"name":"高等数学","day":1,"startPeriod":1,"endPeriod":2,"startWeek":1,"endWeek":16,"weekType":0}]</string>
+    <string name="ai_paste">从剪贴板粘贴</string>
+    <string name="ai_pick_file">选 JSON 文件</string>
+    <string name="ai_parse">解析并预览</string>
+    <string name="ai_empty_input">先粘贴 AI 返回的内容</string>
+    <string name="ai_no_result">这段内容里没有找到可用的课程，请确认粘贴完整。</string>
+    <string name="ai_parsed_ok">已解析出 %1$d 门课程，确认后即可导入</string>
+    <string name="ai_parsed_loose">没找到 JSON，已按文本行解析出 %1$d 门课程，请逐条核对</string>
+    <string name="ai_result_title">共 %1$d 门课程</string>
+    <string name="ai_select_all">全选</string>
+    <string name="ai_select_none">全不选</string>
+    <string name="ai_import_count">导入 %1$d 门课程</string>
+    <string name="ai_import_none">请选择要导入的课程</string>
+    <string name="ai_imported">已导入 %1$d 门课程</string>
+    <string name="ai_edit_title">修正这门课</string>
+    <string name="ai_footer">AI 也可能认错。导入后点开课表里的课程即可随时修改，数据只存在本机。</string>
+    <string name="title_jw_import">教务导入</string>
+    <string name="menu_jw">教务导入（文件 / 网页）</string>
+    <string name="jw_file_label">方式一</string>
+    <string name="jw_file_title">用教务导出的文件导入</string>
+    <string name="jw_file_desc">支持数字华电 / 教务系统导出的 .ics 日历、.csv、.xlsx，以及「导出 Excel」得到的 .xls（其实是网页表格）。选中文件会自动解析成课程，预览确认后再入库。</string>
+    <string name="jw_pick_file">选择文件</string>
+    <string name="jw_open_web">没有文件？网页登录抓取</string>
+    <string name="jw_footer">解析规则与教务导出一致：表头认星期、左列认节次、格子里认课程/教师/地点/周次。识别不了的格子点铅笔改一下即可。</string>
+    <string name="jw_parsing">正在解析文件…</string>
+    <string name="jw_parse_ok">从「%1$s」解析出 %2$d 门课程</string>
+    <string name="jw_file_too_big">文件太大（超过 20 MB），请先精简后再试</string>
+    <string name="jw_read_failed">读取文件失败：%1$s</string>
+    <string name="jw_web_title">网页登录抓取</string>
+    <string name="jw_web_url">教务系统网址</string>
+    <string name="jw_default_url">http://202.204.70.211/jsxsd/</string>
+    <string name="jw_web_open">打开</string>
+    <string name="jw_web_capture">抓取本页课表</string>
+    <string name="jw_web_hint">默认用手机版页面打开北京校区新教务系统。登录后进入「学生课表 / 课表查询」，再点下面按钮抓取；页面排版错乱时可在右上角菜单切「桌面版网页」。</string>
+    <string name="jw_web_loading">页面加载中…</string>
+    <string name="jw_web_loaded">页面已加载，可以点「抓取本页课表」</string>
+    <string name="jw_web_failed">打开失败：%1$s</string>
+    <string name="jw_web_capturing">正在抓取…</string>
+    <string name="jw_web_no_table">这个页面没找到课表表格。请确认已经进入课表页，或等课表加载完再抓一次。</string>
+    <string name="jw_web_copy_text">复制页面文字</string>
+    <string name="jw_web_copied">页面文字已复制，粘贴给 AI 让它按 JSON 输出，再用「AI 识图导入」导入</string>
+    <string name="jw_web_desktop_ua">桌面版网页</string>
+    <string name="jw_presets_title">教务入口</string>
+    <string-array name="jw_presets">
+        <item>北京校区 · 新教务系统(2024)</item>
+        <item>北京校区 · 数字华电门户</item>
+        <item>北京校区 · 旧版教务(查询)</item>
+        <item>保定校区 · 教务处</item>
+    </string-array>
+    <string name="jw_web_refresh">刷新</string>
+    <string name="jw_web_url_empty">先填教务系统网址</string>
+    <string name="jw_capture_failed">抓取失败：%1$s</string>
+    <string name="settings_period_count">节次数量（每天几节课）</string>
+    <string name="settings_semester">学期与周次</string>
+    <string name="settings_semester_start">开学日期（周一）</string>
+    <string name="settings_total_weeks">学期总周数</string>
+    <string name="settings_current_week">当前周</string>
+    <string name="settings_current_week_auto">自动计算</string>
+    <string name="settings_display">显示</string>
+    <string name="settings_show_weekend">显示周末</string>
+    <string name="settings_dim_other">淡化非本周课程</string>
+    <string name="settings_dynamic_color">动态取色（Android 12+）</string>
+    <string name="settings_theme">深色模式</string>
+    <string name="settings_theme_system">跟随系统</string>
+    <string name="settings_theme_light">浅色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_reminder">上课提醒</string>
+    <string name="settings_reminder_enable">课前提醒</string>
+    <string name="settings_reminder_ahead">提前时间</string>
+    <string name="settings_periods">节次时间</string>
+    <string name="settings_periods_caption">点击可修改每节课的上下课时间</string>
+    <string name="settings_data">数据</string>
+    <string name="settings_export_backup">导出备份（JSON）</string>
+    <string name="settings_import_backup">导入备份</string>
+    <string name="settings_export_image">导出课表图片</string>
+    <string name="settings_clear">清空所有课程</string>
+    <string name="settings_about">关于</string>
+    <string name="settings_about_desc">ClassMate 课表 v1.2.0\n本地存储 · AI 识图 / 教务文件导入</string>
+
+    <string name="widget_title">今日课程</string>
+    <string name="widget_empty">今天没有课，好好休息</string>
+    <string name="widget_desc">在桌面查看今天的课程</string>
+</resources>

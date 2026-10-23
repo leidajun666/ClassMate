@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/jw_web_refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_presets"
+        android:title="@string/jw_presets_title"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_desktop"
+        android:checkable="true"
+        android:title="@string/jw_web_desktop_ua"
+        app:showAsAction="never" />
+</menu>

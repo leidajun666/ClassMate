@@ -1,0 +1,28 @@
+# ---------- Gradle ----------
+.gradle/
+build/
+app/build/
+.kotlin/
+local.properties
+
+# ---------- 签名（绝不提交） ----------
+keystore.properties
+*.jks
+*.keystore
+
+# ---------- 构建产物 ----------
+dist/
+*.apk
+*.aab
+*.ap_
+
+# ---------- IDE ----------
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ---------- 日志与本机杂项 ----------
+*.log
+captures/
+.workbuddy/
